@@ -29,8 +29,7 @@ pipeline {
       }
     }
    
-  }
- }
+
 stage ('Clean') {
   agent{label 'awsDeploy'}
   steps {
